@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="server-customer-feign" />
+        <module name="server-customer-feign-hyxtrix" />
+        <module name="server-customer-ribbon" />
+        <module name="server-customer-ribbon-hystrix" />
+        <module name="server-provider-0" />
+        <module name="server-register" />
+        <module name="server-zuul" />
+        <module name="springcloud" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="server-customer-feign" options="-parameters" />
+      <module name="server-customer-feign-hyxtrix" options="-parameters" />
+      <module name="server-customer-ribbon" options="-parameters" />
+      <module name="server-customer-ribbon-hystrix" options="-parameters" />
+      <module name="server-provider-0" options="-parameters" />
+      <module name="server-register" options="-parameters" />
+      <module name="server-zuul" options="-parameters" />
+    </option>
+  </component>
+</project>

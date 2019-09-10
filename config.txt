@@ -1,0 +1,20 @@
+服务提供中心端口号：1000
+服务提供者端口信息：
+    端口号：2000-2001
+    名称 ：SERVER-PROVIDER
+服务消费者Ribbon端口信息
+    端口号：3001
+    名称 ：SERVER-CUSTOMER-RIBBON
+服务消费者Ribbon熔断测试信息
+    端口号：3002
+    名称： SERVER-CUSTOMER-RIBBON-HYSTRIX
+服务消费者Feign端口信息
+    端口号：4001
+        名称 ：SERVER-CUSTOMER-FEIGN
+服务消费者Feign熔断测试信息
+    端口号：4002
+    名称： SERVER-CUSTOMER-FEIGN-HYSTRIX
+
+网关信息
+    端口号：5000
+    名称： server-zuul
