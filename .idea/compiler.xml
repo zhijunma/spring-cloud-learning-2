@@ -6,6 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="client-config" />
+        <module name="server-config" />
         <module name="server-customer-feign" />
         <module name="server-customer-feign-hyxtrix" />
         <module name="server-customer-ribbon" />
@@ -19,6 +21,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="client-config" options="-parameters" />
+      <module name="server-config" options="-parameters" />
       <module name="server-customer-feign" options="-parameters" />
       <module name="server-customer-feign-hyxtrix" options="-parameters" />
       <module name="server-customer-ribbon" options="-parameters" />

@@ -12,6 +12,8 @@
         <option value="$PROJECT_DIR$/server-customer-ribbon-hystrix/pom.xml" />
         <option value="$PROJECT_DIR$/server-customer-feign-hyxtrix/pom.xml" />
         <option value="$PROJECT_DIR$/server-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/server-config/pom.xml" />
+        <option value="$PROJECT_DIR$/client-config/pom.xml" />
       </list>
     </option>
   </component>
