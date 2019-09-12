@@ -18,6 +18,11 @@
         <module name="springcloud" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="zipkin-server" target="1.8" />
+      <module name="zipkin-server-provider-0" target="1.8" />
+      <module name="zipkin-server-zuul" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

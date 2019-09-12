@@ -1,0 +1,28 @@
+
+server:
+  port: 8000
+spring:
+  application:
+    name: service-zuul
+  client:
+    service-url:
+      defaultZone: http://localhost:1000/eureka/
+  sleuth:
+    sampler:
+      probability: 1.0
+  zipkin:
+    # base-url: http://localhost:9411/
+    # ����ͬһ��ע�����ĵĻ����������Զ����֣�ʡ��base-url
+    locator:
+      discovery:
+        enabled: true #�Զ�����
+zuul:
+  routes:
+    api-hi:
+      path: /api-hi/**
+      serviceId: service-hello
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1000/eureka/
